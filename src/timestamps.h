@@ -1,0 +1,5 @@
+#ifndef BITCOIN_TIMESTAMPS_H
+#define BITCOIN_TIMESTAMPS_H
+
+static const unsigned int CHECKLOCKTIMEVERIFY_SWITCH_TIME = 1461110400; // Wednesday, 20-Apr-16 00:00:00 UTC
+#endif

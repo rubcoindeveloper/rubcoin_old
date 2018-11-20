@@ -1,0 +1,68 @@
+#!/bin/sh
+
+# PROVIDE: rubcoin
+# REQUIRE: LOGIN
+# KEYWORD: shutdown
+
+#
+# Add the following lines to /etc/rc.conf.local or /etc/rc.conf
+# to enable this service:
+#
+# rubcoin_enable (bool): Set to NO by default. Set this variable to YES if you want to enable rubcoin service.
+# rubcoin_config (path): Set to /usr/local/etc/rubcoin.conf by default.
+# rubcoin_user:  The user account rubcoin daemon runs as. It uses 'root' user by default.
+# rubcoin_group: The group account rubcoin daemon runs as. It uses 'wheel' group by default.
+# rubcoin_datadir (str): Default to "/var/db/rubcoin". Base data directory.
+
+. /etc/rc.subr
+
+name=rubcoin
+rcvar=rubcoin_enable
+
+: ${rubcoin_enable:=NO}
+: ${rubcoin_config=/usr/local/etc/rubcoin.conf}
+: ${rubcoin_datadir=/var/db/rubcoin}
+: ${rubcoin_user="root"}
+: ${rubcoin_group="wheel"}
+
+required_files=${rubcoin_config}
+command=/usr/local/bin/rubcoind
+rubcoin_chdir=${rubcoin_datadir}
+pidfile="${rubcoin_datadir}/rubcoind.pid"
+stop_cmd=rubcoin_stop
+command_args="-conf=${rubcoin_config} -datadir=${rubcoin_datadir} -daemon -pid=${pidfile}"
+start_precmd="${name}_prestart"
+
+rubcoin_create_datadir()
+{
+	echo "Creating data directory"
+	eval mkdir -p ${rubcoin_datadir}
+	[ $? -eq 0 ] && chown -R ${rubcoin_user}:${rubcoin_group} ${rubcoin_datadir}
+}
+
+rubcoin_prestart()
+{
+	if [ ! -d "${rubcoin_datadir}/." ]; then
+		rubcoin_create_datadir || return 1
+	fi
+}
+
+rubcoin_requirepidfile()
+{
+	if [ ! "0`check_pidfile ${pidfile} ${command}`" -gt 1 ]; then
+		echo "${name} not running? (check $pidfile)."
+		exit 1
+	fi
+}
+
+rubcoin_stop()
+{
+    rubcoin_requirepidfile
+
+	echo "Stopping ${name}."
+	eval ${command} -conf=${rubcoin_config} -datadir=${rubcoin_datadir} stop
+	wait_for_pids ${rc_pid}
+}
+
+load_rc_config $name
+run_rc_command "$1"

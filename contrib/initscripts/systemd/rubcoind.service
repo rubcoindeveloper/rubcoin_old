@@ -1,0 +1,11 @@
+[Unit]
+Description=Rubcoin daemon serivce
+After=network.target
+
+[Service]
+Type=simple
+User=rubcoin
+ExecStart=/opt/rubcoin/rubcoind
+
+[Install]
+WantedBy=multi-user.target
