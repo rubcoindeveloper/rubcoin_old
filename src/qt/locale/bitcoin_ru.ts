@@ -20,17 +20,19 @@
 Copyright © 2011-2012 The PPCoin Developers
 Copyright © 2014 The Peerunity Developers
 Copyright © 2014 The EmerCoin Developers
-Copyright © 2012-2016 The Rubcoin developers</source>
+Copyright © 2012-2017 The Novacoin developers
+Copyright © 2018-2019 The Rubcoin developers</source>
         <translation>Все права защищены © 2009-2016 Разработчики Bitcoin
 Все права защищены © 2011-2012 Разработчики PPCoin
 Все права защищены © 2014 Разработчики Peerunity
 Все права защищены © 2014 Разработчики EmerCoin
-Все права защищены © 2012-2016 Разработчики Rubcoin</translation>
+Все права защищены © 2012-2017 Разработчики Novacoin
+Все права защищены © 2018-2019 Разработчики Rubcoin</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="114"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;This is experimental software.&lt;/p&gt;&lt;p&gt;Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;br/&gt;&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Main icon was designed by VisualPharm.com (&lt;a href=&quot;mailto:team@visualpharm.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;team@visualpharm.com&lt;/span&gt;&lt;/a&gt;). This product also includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;http://www.openssl.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.openssl.org/&lt;/span&gt;&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;eay@cryptsoft.com&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;Это экспериментальная программа.&lt;/p&gt;&lt;p&gt;Распространяется на правах лицензии MIT/X11, см. файл license.txt или &lt;br/&gt;&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Иконка приложения разработана VisualPharm.com (&lt;a href=&quot;mailto:team@visualpharm.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;team@visualpharm.com&lt;/span&gt;&lt;/a&gt;). Этот продукт также включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit (&lt;a href=&quot;http://www.openssl.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.openssl.org/&lt;/span&gt;&lt;/a&gt;) и криптографическое ПО, написанное Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;eay@cryptsoft.com&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;This is experimental software.&lt;/p&gt;&lt;p&gt;Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;br/&gt;&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;This product also includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;http://www.openssl.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.openssl.org/&lt;/span&gt;&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;eay@cryptsoft.com&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;Это экспериментальная программа.&lt;/p&gt;&lt;p&gt;Распространяется на правах лицензии MIT/X11, см. файл license.txt или &lt;br/&gt;&lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Этот продукт также включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit (&lt;a href=&quot;http://www.openssl.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;http://www.openssl.org/&lt;/span&gt;&lt;/a&gt;) и криптографическое ПО, написанное Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;eay@cryptsoft.com&lt;/span&gt;&lt;/a&gt;).&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -179,32 +181,32 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="36"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Введите новый пароль для бумажника. &lt;br/&gt; Пожалуйста, используйте фразы из &lt;b&gt;10 или более случайных символов,&lt;/b&gt; или &lt;b&gt;восьми и более слов.&lt;/b&gt;</translation>
+        <translation>Введите новый пароль для кошелька. &lt;br/&gt; Пожалуйста, используйте фразы из &lt;b&gt;10 или более случайных символов,&lt;/b&gt; или &lt;b&gt;восьми и более слов.&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="37"/>
         <source>Encrypt wallet</source>
-        <translation>Зашифровать бумажник</translation>
+        <translation>Зашифровать кошелёк</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="41"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
+        <translation>Для выполнения операции требуется пароль вашего кошелька.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="46"/>
         <source>Unlock wallet</source>
-        <translation>Разблокировать бумажник</translation>
+        <translation>Разблокировать кошелёк</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="49"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Для выполнения операции требуется пароль вашего бумажника.</translation>
+        <translation>Для выполнения операции требуется пароль вашего кошелька.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="54"/>
         <source>Decrypt wallet</source>
-        <translation>Расшифровать бумажник</translation>
+        <translation>Расшифровать кошелёк</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="57"/>
@@ -214,33 +216,33 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="58"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Введите старый и новый пароль для бумажника.</translation>
+        <translation>Введите старый и новый пароль для кошелька.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="104"/>
         <source>Confirm wallet encryption</source>
-        <translation>Подтвердите шифрование бумажника</translation>
+        <translation>Подтвердите шифрование кошелька</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="105"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ МОНЕТЫ&lt;/b&gt;!</translation>
+        <translation>Внимание: если вы зашифруете кошелёк и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ МОНЕТЫ&lt;/b&gt;!</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="105"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Вы уверены, что хотите зашифровать ваш бумажник?</translation>
+        <translation>Вы уверены, что хотите зашифровать ваш кошелёк?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="114"/>
         <location filename="../askpassphrasedialog.cpp" line="188"/>
         <source>Wallet encrypted</source>
-        <translation>Бумажник зашифрован</translation>
+        <translation>Кошелёк зашифрован</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="116"/>
         <source>Rubcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+        <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="120"/>
@@ -253,12 +255,12 @@ Copyright © 2012-2016 The Rubcoin developers</source>
         <location filename="../askpassphrasedialog.cpp" line="194"/>
         <location filename="../askpassphrasedialog.cpp" line="200"/>
         <source>Wallet encryption failed</source>
-        <translation>Не удалось зашифровать бумажник</translation>
+        <translation>Не удалось зашифровать кошелёк</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="130"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Шифрование бумажника не удалось из-за внутренней ошибки. Ваш бумажник не был зашифрован.</translation>
+        <translation>Шифрование кошелька не удалось из-за внутренней ошибки. Ваш кошелёк не был зашифрован.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="137"/>
@@ -270,7 +272,7 @@ Copyright © 2012-2016 The Rubcoin developers</source>
         <location filename="../askpassphrasedialog.cpp" line="148"/>
         <location filename="../askpassphrasedialog.cpp" line="159"/>
         <source>Wallet unlock failed</source>
-        <translation>Разблокировка бумажника не удалась</translation>
+        <translation>Разблокировка кошелька не удалась</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="149"/>
@@ -283,12 +285,12 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="171"/>
         <source>Wallet decryption failed</source>
-        <translation>Расшифрование бумажника не удалось</translation>
+        <translation>Расшифрование кошелька не удалось</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="176"/>
         <source>Wallet decrypted</source>
-        <translation>Бумажник расшифрован</translation>
+        <translation>Кошелёк расшифрован</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="178"/>
@@ -298,7 +300,7 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="189"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Пароль бумажника успешно изменён.</translation>
+        <translation>Пароль кошелька успешно изменён.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="237"/>
@@ -323,7 +325,7 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="96"/>
         <source>Wallet</source>
-        <translation>Бумажник</translation>
+        <translation>Кошелёк</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="244"/>
@@ -333,7 +335,7 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="245"/>
         <source>Show general overview of wallet</source>
-        <translation>Показать общий обзор действий с бумажником</translation>
+        <translation>Показать общий обзор действий с кошельком</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="250"/>
@@ -444,22 +446,22 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="317"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Зашифровать бумажник</translation>
+        <translation>&amp;Зашифровать кошелёк</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="318"/>
         <source>Encrypt or decrypt wallet</source>
-        <translation>Зашифровать или расшифровать бумажник</translation>
+        <translation>Зашифровать или расшифровать кошелёк</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="320"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Сделать резервную копию бумажника</translation>
+        <translation>&amp;Сделать резервную копию кошелька</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="321"/>
         <source>Backup wallet to another location</source>
-        <translation>Сделать резервную копию бумажника в другом месте</translation>
+        <translation>Сделать резервную копию кошелька в другом месте</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="322"/>
@@ -489,7 +491,7 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="327"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Изменить пароль шифрования бумажника</translation>
+        <translation>Изменить пароль шифрования кошелька</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="328"/>
@@ -524,22 +526,22 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="335"/>
         <source>&amp;Lock wallet</source>
-        <translation>&amp;Заблокировать бумажник</translation>
+        <translation>&amp;Заблокировать кошелёк</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="336"/>
         <source>Lock wallet</source>
-        <translation>Заблокировать бумажник</translation>
+        <translation>Заблокировать кошелёк</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="339"/>
         <source>Unlo&amp;ck wallet</source>
-        <translation>Разб&amp;локировать бумажник</translation>
+        <translation>Разб&amp;локировать кошелёк</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="340"/>
         <source>Unlock wallet</source>
-        <translation>Разблокировать бумажник</translation>
+        <translation>Разблокировать кошелёк</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
@@ -710,12 +712,12 @@ Copyright © 2012-2016 The Rubcoin developers</source>
     <message>
         <location filename="../bitcoingui.cpp" line="706"/>
         <source>Wallet is offline</source>
-        <translation>Бумажник не в сети</translation>
+        <translation>Кошелёк не в сети</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="712"/>
         <source>Wallet is locked</source>
-        <translation>Бумажник заблокирован</translation>
+        <translation>Кошелёк заблокирован</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="718"/>
@@ -799,22 +801,22 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="1016"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
+        <translation>Кошелёк &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1035"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
+        <translation>Кошелёк &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1084"/>
         <source>Backup Wallet</source>
-        <translation>Сделать резервную копию бумажника</translation>
+        <translation>Сделать резервную копию кошелька</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1084"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Данные бумажника (*.dat)</translation>
+        <translation>Данные кошелька (*.dat)</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1087"/>
@@ -824,12 +826,12 @@ Address: %4
     <message>
         <location filename="../bitcoingui.cpp" line="1087"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>При попытке сохранения данных бумажника в новое место произошла ошибка.</translation>
+        <translation>При попытке сохранения данных кошелька в новое место произошла ошибка.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1109"/>
         <source>Dump Wallet</source>
-        <translation>Произошла ошибка при сохранении копии данных бумажника.</translation>
+        <translation>Произошла ошибка при сохранении копии данных кошелька.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="1109"/>
@@ -1245,7 +1247,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../editaddressdialog.cpp" line="113"/>
         <source>Could not unlock wallet.</source>
-        <translation>Не удается разблокировать бумажник.</translation>
+        <translation>Не удается разблокировать кошелёк.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="118"/>
@@ -1769,7 +1771,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../forms/multisigdialog.ui" line="303"/>
         <source>Add address to wallet</source>
-        <translation>Добавить адрес в бумажник</translation>
+        <translation>Добавить адрес в кошелёк</translation>
     </message>
     <message>
         <location filename="../forms/multisigdialog.ui" line="313"/>
@@ -1993,7 +1995,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../forms/optionsdialog.ui" line="96"/>
         <source>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</source>
-        <translation>Отключить базы данных блоков и адресов при выходе. Это означает, что их можно будет переместить в другой каталог данных, но завершение работы будет медленнее. Бумажник всегда отключается.</translation>
+        <translation>Отключить базы данных блоков и адресов при выходе. Это означает, что их можно будет переместить в другой каталог данных, но завершение работы будет медленнее. Кошелёк всегда отключается.</translation>
     </message>
     <message>
         <location filename="../forms/optionsdialog.ui" line="99"/>
@@ -2229,7 +2231,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../forms/overviewpage.ui" line="46"/>
         <location filename="../forms/overviewpage.ui" line="365"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Rubcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Rubcoin после подключения, но этот процесс пока не завершён.</translation>
+        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью Rubcoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="225"/>
@@ -2306,7 +2308,7 @@ Reduce the number of addresses involved in the address creation.</source>
         <location filename="../forms/overviewpage.ui" line="305"/>
         <location filename="../forms/overviewpage.ui" line="315"/>
         <source>Total number of transactions in wallet</source>
-        <translation>Общее количество транзакций в Вашем бумажнике</translation>
+        <translation>Общее количество транзакций в Вашем кошельке</translation>
     </message>
     <message>
         <location filename="../forms/overviewpage.ui" line="308"/>
@@ -2733,7 +2735,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../secondauthdialog.cpp" line="97"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Разблокировка бумажника была отменена.</translation>
+        <translation>Разблокировка кошелька была отменена.</translation>
     </message>
     <message>
         <location filename="../secondauthdialog.cpp" line="105"/>
@@ -3248,7 +3250,7 @@ Reduce the number of addresses involved in the address creation.</source>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="131"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Разблокировка бумажника была отменена.</translation>
+        <translation>Разблокировка кошелька была отменена.</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="139"/>
@@ -3969,7 +3971,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="82"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Не удаётся понизить версию бумажника</translation>
+        <translation>Не удаётся понизить версию кошелька</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="83"/>
@@ -4029,12 +4031,12 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="94"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Ошибка загрузки wallet.dat: Бумажник поврежден</translation>
+        <translation>Ошибка загрузки wallet.dat: Кошелёк поврежден</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="95"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Rubcoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Rubcoin</translation>
+        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новую версию Rubcoin</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="96"/>
@@ -4049,7 +4051,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="98"/>
         <source>Error: Wallet locked, unable to create transaction  </source>
-        <translation>Ошибка: бумажник заблокирован, невозможно создать транзакцию  </translation>
+        <translation>Ошибка: кошелёк заблокирован, невозможно создать транзакцию  </translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="99"/>
@@ -4155,7 +4157,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="120"/>
         <source>Loading wallet...</source>
-        <translation>Загрузка бумажника...</translation>
+        <translation>Загрузка кошелька...</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
@@ -4215,7 +4217,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="132"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Перепроверить цепь блоков на предмет отсутствующих в бумажнике транзакций</translation>
+        <translation>Перепроверить цепь блоков на предмет отсутствующих в кошельке транзакций</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="133"/>
@@ -4368,7 +4370,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="162"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Обновить бумажник до последнего формата</translation>
+        <translation>Обновить кошелёк до последнего формата</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="163"/>
@@ -4403,7 +4405,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="../bitcoinstrings.cpp" line="169"/>
         <source>Wallet needed to be rewritten: restart Rubcoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Rubcoin для завершения операции.</translation>
+        <translation>Необходимо перезаписать кошелёк, перезапустите Rubcoin для завершения операции.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="170"/>
