@@ -29,8 +29,8 @@ namespace Checkpoints
         ( 0,     std::make_pair(hashGenesisBlock, 1541771816) )
         ( 500,   std::make_pair(uint256("0x000000448975a7e5c0c9b8ae6b6e147083d71e2abc3ec2d0834c8df4a7b68c8c"), 1542549691) )
         ( 1600,  std::make_pair(uint256("0x000000f60c90db199f8d3a4ae4b1ce3638442b08f27ad430c602860237b7b507"), 1542645812) )
-        ( 1900,  std::make_pair(uint256("0x15f4e5be93a30d39bcc51631acfb0f4c391b4f69632ef35acd1b01fdf615cb7e"), 1542662269) )
         ( 2050,  std::make_pair(uint256("0x3f6256d2be0149e2228f15d228ccb5d4290dc7b69268b49f40e8f9077bece780"), 1542672131) )
+        ( 3400,  std::make_pair(uint256("0xefdd25794fd2a03f069f616c6964198513ff76cf5fedb50cda5d5c3e0a7b1ee6"), 1542762351) )
     ;
 
     static ListBannedBlocks listBanned =
