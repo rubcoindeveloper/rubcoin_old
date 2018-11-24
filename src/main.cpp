@@ -2243,8 +2243,8 @@ bool CBlock::AcceptBlock()
 
     int64_t nMedianTimePast = pindexPrev->GetMedianTimePast();
     int nMaxOffset = 12 * nOneHour; // 12 hours
-    if (fTestNet || pindexPrev->nHeight < 500)
-        nMaxOffset = nOneWeek; // One week (permanently on testNet or until 500 height on mainNet)
+    if (fTestNet || pindexPrev->nHeight < BOOTSTRAP_TIME_OFFSET_HEIGHT)
+        nMaxOffset = 2 * nOneWeek; // Two weeks (permanently on testNet or on mainNet bootstrap)
 
     // Check timestamp against prev
     if (GetBlockTime() <= nMedianTimePast || FutureDrift(GetBlockTime()) < pindexPrev->GetBlockTime())
