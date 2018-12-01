@@ -1002,7 +1002,8 @@ int64_t GetProofOfWorkReward(unsigned int nBits, unsigned int nHeight, int64_t n
 {
     int64_t nSubsidy = 0;
 
-    if (nHeight >= 1 && nHeight <= 1600)
+    if ((nHeight >= 1 && nHeight <= 1600)
+        || (nHeight >= 1629 && nHeight <= 1634))
         nSubsidy = 625000000 * COIN;
 
     if (fDebug && GetBoolArg("-printcreation"))
