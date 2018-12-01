@@ -39,7 +39,7 @@ static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
-static const int LAST_POW_HEIGHT = 1610;
+static const int LAST_POW_HEIGHT = 1670;
 static const int BOOTSTRAP_TIME_OFFSET_HEIGHT = 1625;
 
 static const int64_t MIN_TX_FEE = CENT/10;
