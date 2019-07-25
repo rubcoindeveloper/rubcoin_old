@@ -1042,7 +1042,13 @@ void ThreadDNSAddressSeed2(void* parg)
 
 
 uint32_t pnSeed[] =
-{};
+{
+    0x7b773ac2,
+    0xe90815b2,
+    0x1e0815b2,
+    0x220815b2,
+    0xa30815b2
+};
 
 const char* pchTorSeed[] = 
 {};
