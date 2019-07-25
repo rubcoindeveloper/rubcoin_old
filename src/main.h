@@ -41,6 +41,7 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
 static const int LAST_POW_HEIGHT = 1670;
 static const int BOOTSTRAP_TIME_OFFSET_HEIGHT = 1625;
+static const int SYNC_ESTABLISH_JUL19_HEIGHT = 264179;
 
 static const int64_t MIN_TX_FEE = CENT/10;
 static const int64_t MIN_RELAY_TX_FEE = CENT/50;
