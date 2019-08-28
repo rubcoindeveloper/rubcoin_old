@@ -34,12 +34,12 @@ map<uint256, CBlockIndex*> mapBlockIndex;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
 
 CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // "standard" scrypt target limit for proof of work, results with 0,000244140625 proof-of-work difficulty
-CBigNum bnProofOfStakeLimit(~uint256(0) >> 20); // proof of stake target limit since 20 June 2013, equal to 0.03125  proof of stake difficulty
+CBigNum bnProofOfStakeLimit(~uint256(0) >> 16); // proof of stake target limit
 uint256 nPoWBase = uint256("0x00000000ffff0000000000000000000000000000000000000000000000000000"); // difficulty-1 target
 
 CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 
-unsigned int nStakeMinAge = nOneDay; // 1 day as zero time weight
+unsigned int nStakeMinAge = nOneHour * 2;
 unsigned int nStakeMaxAge = 10 * 365 * nOneDay; // 10 years as full weight
 unsigned int nStakeTargetSpacing = 60; // seconds stakes spacing
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
@@ -1002,9 +1002,8 @@ int64_t GetProofOfWorkReward(unsigned int nBits, unsigned int nHeight, int64_t n
 {
     int64_t nSubsidy = 0;
 
-    if ((nHeight >= 1 && nHeight <= 1600)
-        || (nHeight >= 1629 && nHeight <= 1634))
-        nSubsidy = 625000000 * COIN;
+    if (nHeight >= 1 && nHeight <= 1600)
+        nSubsidy = 6250000000 * COIN;
 
     if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nBits=0x%08x nHeight=%d nSubsidy=%" PRId64 "\n", FormatMoney(nSubsidy).c_str(), nBits, nHeight, nSubsidy);
@@ -2245,9 +2244,7 @@ bool CBlock::AcceptBlock()
     int64_t nMedianTimePast = pindexPrev->GetMedianTimePast();
     int nMaxOffset = 12 * nOneHour; // 12 hours
     if (fTestNet || pindexPrev->nHeight < BOOTSTRAP_TIME_OFFSET_HEIGHT)
-        nMaxOffset = 4 * nOneWeek; // Two weeks (permanently on testNet or on mainNet bootstrap)
-    else if (pindexPrev->nHeight >= SYNC_ESTABLISH_JUL19_HEIGHT && pindexPrev->nHeight <= SYNC_ESTABLISH_JUL19_HEIGHT + 150)
-        nMaxOffset = 8 * nOneWeek;
+        nMaxOffset = 2 * nOneWeek; // Two weeks (permanently on testNet or on mainNet bootstrap)
 
     // Check timestamp against prev
     if (GetBlockTime() <= nMedianTimePast || FutureDrift(GetBlockTime()) < pindexPrev->GetBlockTime())
@@ -2659,7 +2656,7 @@ bool LoadBlockIndex(bool fAllowNew)
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0x44;
+        pchMessageStart[0] = 0x45;
         pchMessageStart[1] = 0xac;
         pchMessageStart[2] = 0x6e;
         pchMessageStart[3] = 0xbe;
@@ -2686,9 +2683,9 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const string strTimestamp = "CCN 09/Nov/2018 BTC Faces Bearish Reversal";
+        const string strTimestamp = "CBSNews 24/Aug/2019 Stocks crumble as U.S.-China trade war heats up";
         CTransaction txNew;
-        txNew.nTime = 1541771816;
+        txNew.nTime = 1566675550;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(9999) << vector<unsigned char>(strTimestamp.begin(), strTimestamp.end());
@@ -2698,12 +2695,12 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1541771816;
+        block.nTime    = 1566675550;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = !fTestNet ? 2203543 : 0;
+        block.nNonce   = !fTestNet ? 3780926 : 0;
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("0xc071caaaa9fb17f638e9166513a64ec0ab58eee47dbcce5e81c8fe915b374104"));
+        assert(block.hashMerkleRoot == uint256("0xd45baad00b33ca011a08f37cc9ea1632a9acfdeaa3725f009ca87ea40c57e169"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
@@ -3009,7 +3006,7 @@ bool static AlreadyHave(CTxDB& txdb, const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0x11, 0x1c, 0xcb, 0x1e };
+unsigned char pchMessageStart[4] = { 0x12, 0x1c, 0xcb, 0x1e };
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 {

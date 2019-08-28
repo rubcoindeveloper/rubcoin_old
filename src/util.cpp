@@ -1090,13 +1090,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\RubcoinCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\RubcoinCore
-    // Mac: ~/Library/Application Support/RubcoinCore
-    // Unix: ~/.rubcoincore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\RubcoinCore-v2
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\RubcoinCore-v2
+    // Mac: ~/Library/Application Support/RubcoinCore-v2
+    // Unix: ~/.rubcoincore-v2
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "RubcoinCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "RubcoinCore-v2";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1108,10 +1108,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "RubcoinCore";
+    return pathRet / "RubcoinCore-v2";
 #else
     // Unix
-    return pathRet / ".rubcoincore";
+    return pathRet / ".rubcoincore-v2";
 #endif
 #endif
 }

@@ -41,7 +41,6 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
 static const int LAST_POW_HEIGHT = 1670;
 static const int BOOTSTRAP_TIME_OFFSET_HEIGHT = 1625;
-static const int SYNC_ESTABLISH_JUL19_HEIGHT = 264179;
 
 static const int64_t MIN_TX_FEE = CENT/10;
 static const int64_t MIN_RELAY_TX_FEE = CENT/50;
@@ -56,7 +55,7 @@ static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20
 // Maximum number of script-checking threads allowed
 static const int MAX_SCRIPTCHECK_THREADS = 16;
 
-static const uint256 hashGenesisBlock("0x0000006d3bd7216bf6b0d44c74ea639b6c5ee926159a67b63c912204adcfd584");
+static const uint256 hashGenesisBlock("0x0000010e3c630e7acb49f149d627f40fa3ca6a41efafef28808747660be0fbdd");
 static const uint256 hashGenesisBlockTestNet("0x");
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 5 * 60; } // up to 5 minutes from the past
@@ -1155,7 +1154,7 @@ public:
     int32_t nHeight;
 
     int64_t nMint;
-    int64_t nMoneySupply;
+    uint64_t nMoneySupply;
 
     uint32_t nFlags;  // ppcoin: block index flags
     enum  
